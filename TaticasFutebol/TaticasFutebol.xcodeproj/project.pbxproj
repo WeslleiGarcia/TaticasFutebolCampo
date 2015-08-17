@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3949C8F1B825F6300F31569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3949C8E1B825F6300F31569 /* AppDelegate.swift */; };
+		C3949C911B825F6300F31569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3949C901B825F6300F31569 /* ViewController.swift */; };
+		C3949C941B825F6300F31569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3949C921B825F6300F31569 /* Main.storyboard */; };
+		C3949C971B825F6300F31569 /* TaticasFutebol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3949C951B825F6300F31569 /* TaticasFutebol.xcdatamodeld */; };
+		C3949C991B825F6300F31569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3949C981B825F6300F31569 /* Assets.xcassets */; };
+		C3949C9C1B825F6300F31569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3949C9A1B825F6300F31569 /* LaunchScreen.storyboard */; };
+		C3949CA71B825F6300F31569 /* TaticasFutebolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3949CA61B825F6300F31569 /* TaticasFutebolTests.swift */; };
+		C3949CB21B825F6300F31569 /* TaticasFutebolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3949CB11B825F6300F31569 /* TaticasFutebolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3949CA31B825F6300F31569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3949C831B825F6300F31569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3949C8A1B825F6300F31569;
+			remoteInfo = TaticasFutebol;
+		};
+		C3949CAE1B825F6300F31569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3949C831B825F6300F31569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3949C8A1B825F6300F31569;
+			remoteInfo = TaticasFutebol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3949C8B1B825F6300F31569 /* TaticasFutebol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaticasFutebol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3949C8E1B825F6300F31569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3949C901B825F6300F31569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3949C931B825F6300F31569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3949C961B825F6300F31569 /* TaticasFutebol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaticasFutebol.xcdatamodel; sourceTree = "<group>"; };
+		C3949C981B825F6300F31569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3949C9B1B825F6300F31569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3949C9D1B825F6300F31569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3949CA21B825F6300F31569 /* TaticasFutebolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaticasFutebolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3949CA61B825F6300F31569 /* TaticasFutebolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaticasFutebolTests.swift; sourceTree = "<group>"; };
+		C3949CA81B825F6300F31569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3949CAD1B825F6300F31569 /* TaticasFutebolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaticasFutebolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3949CB11B825F6300F31569 /* TaticasFutebolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaticasFutebolUITests.swift; sourceTree = "<group>"; };
+		C3949CB31B825F6300F31569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3949C881B825F6300F31569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949C9F1B825F6300F31569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949CAA1B825F6300F31569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3949C821B825F6300F31569 = {
+			isa = PBXGroup;
+			children = (
+				C3949C8D1B825F6300F31569 /* TaticasFutebol */,
+				C3949CA51B825F6300F31569 /* TaticasFutebolTests */,
+				C3949CB01B825F6300F31569 /* TaticasFutebolUITests */,
+				C3949C8C1B825F6300F31569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3949C8C1B825F6300F31569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3949C8B1B825F6300F31569 /* TaticasFutebol.app */,
+				C3949CA21B825F6300F31569 /* TaticasFutebolTests.xctest */,
+				C3949CAD1B825F6300F31569 /* TaticasFutebolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3949C8D1B825F6300F31569 /* TaticasFutebol */ = {
+			isa = PBXGroup;
+			children = (
+				C3949C8E1B825F6300F31569 /* AppDelegate.swift */,
+				C3949C901B825F6300F31569 /* ViewController.swift */,
+				C3949C921B825F6300F31569 /* Main.storyboard */,
+				C3949C981B825F6300F31569 /* Assets.xcassets */,
+				C3949C9A1B825F6300F31569 /* LaunchScreen.storyboard */,
+				C3949C9D1B825F6300F31569 /* Info.plist */,
+				C3949C951B825F6300F31569 /* TaticasFutebol.xcdatamodeld */,
+			);
+			path = TaticasFutebol;
+			sourceTree = "<group>";
+		};
+		C3949CA51B825F6300F31569 /* TaticasFutebolTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3949CA61B825F6300F31569 /* TaticasFutebolTests.swift */,
+				C3949CA81B825F6300F31569 /* Info.plist */,
+			);
+			path = TaticasFutebolTests;
+			sourceTree = "<group>";
+		};
+		C3949CB01B825F6300F31569 /* TaticasFutebolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3949CB11B825F6300F31569 /* TaticasFutebolUITests.swift */,
+				C3949CB31B825F6300F31569 /* Info.plist */,
+			);
+			path = TaticasFutebolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3949C8A1B825F6300F31569 /* TaticasFutebol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3949CB61B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebol" */;
+			buildPhases = (
+				C3949C871B825F6300F31569 /* Sources */,
+				C3949C881B825F6300F31569 /* Frameworks */,
+				C3949C891B825F6300F31569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaticasFutebol;
+			productName = TaticasFutebol;
+			productReference = C3949C8B1B825F6300F31569 /* TaticasFutebol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3949CA11B825F6300F31569 /* TaticasFutebolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3949CB91B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebolTests" */;
+			buildPhases = (
+				C3949C9E1B825F6300F31569 /* Sources */,
+				C3949C9F1B825F6300F31569 /* Frameworks */,
+				C3949CA01B825F6300F31569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3949CA41B825F6300F31569 /* PBXTargetDependency */,
+			);
+			name = TaticasFutebolTests;
+			productName = TaticasFutebolTests;
+			productReference = C3949CA21B825F6300F31569 /* TaticasFutebolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3949CAC1B825F6300F31569 /* TaticasFutebolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3949CBC1B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebolUITests" */;
+			buildPhases = (
+				C3949CA91B825F6300F31569 /* Sources */,
+				C3949CAA1B825F6300F31569 /* Frameworks */,
+				C3949CAB1B825F6300F31569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3949CAF1B825F6300F31569 /* PBXTargetDependency */,
+			);
+			name = TaticasFutebolUITests;
+			productName = TaticasFutebolUITests;
+			productReference = C3949CAD1B825F6300F31569 /* TaticasFutebolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3949C831B825F6300F31569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Wesllei;
+				TargetAttributes = {
+					C3949C8A1B825F6300F31569 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C3949CA11B825F6300F31569 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C3949C8A1B825F6300F31569;
+					};
+					C3949CAC1B825F6300F31569 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C3949C8A1B825F6300F31569;
+					};
+				};
+			};
+			buildConfigurationList = C3949C861B825F6300F31569 /* Build configuration list for PBXProject "TaticasFutebol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3949C821B825F6300F31569;
+			productRefGroup = C3949C8C1B825F6300F31569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3949C8A1B825F6300F31569 /* TaticasFutebol */,
+				C3949CA11B825F6300F31569 /* TaticasFutebolTests */,
+				C3949CAC1B825F6300F31569 /* TaticasFutebolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3949C891B825F6300F31569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3949C9C1B825F6300F31569 /* LaunchScreen.storyboard in Resources */,
+				C3949C991B825F6300F31569 /* Assets.xcassets in Resources */,
+				C3949C941B825F6300F31569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949CA01B825F6300F31569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949CAB1B825F6300F31569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3949C871B825F6300F31569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3949C911B825F6300F31569 /* ViewController.swift in Sources */,
+				C3949C971B825F6300F31569 /* TaticasFutebol.xcdatamodeld in Sources */,
+				C3949C8F1B825F6300F31569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949C9E1B825F6300F31569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3949CA71B825F6300F31569 /* TaticasFutebolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3949CA91B825F6300F31569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3949CB21B825F6300F31569 /* TaticasFutebolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3949CA41B825F6300F31569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3949C8A1B825F6300F31569 /* TaticasFutebol */;
+			targetProxy = C3949CA31B825F6300F31569 /* PBXContainerItemProxy */;
+		};
+		C3949CAF1B825F6300F31569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3949C8A1B825F6300F31569 /* TaticasFutebol */;
+			targetProxy = C3949CAE1B825F6300F31569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3949C921B825F6300F31569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3949C931B825F6300F31569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3949C9A1B825F6300F31569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3949C9B1B825F6300F31569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3949CB41B825F6300F31569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3949CB51B825F6300F31569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3949CB71B825F6300F31569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaticasFutebol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3949CB81B825F6300F31569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaticasFutebol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3949CBA1B825F6300F31569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaticasFutebolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaticasFutebol.app/TaticasFutebol";
+			};
+			name = Debug;
+		};
+		C3949CBB1B825F6300F31569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaticasFutebolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaticasFutebol.app/TaticasFutebol";
+			};
+			name = Release;
+		};
+		C3949CBD1B825F6300F31569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaticasFutebolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaticasFutebol;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3949CBE1B825F6300F31569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaticasFutebolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEPiD-FUCAPI.TaticasFutebolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaticasFutebol;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3949C861B825F6300F31569 /* Build configuration list for PBXProject "TaticasFutebol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3949CB41B825F6300F31569 /* Debug */,
+				C3949CB51B825F6300F31569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3949CB61B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3949CB71B825F6300F31569 /* Debug */,
+				C3949CB81B825F6300F31569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3949CB91B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3949CBA1B825F6300F31569 /* Debug */,
+				C3949CBB1B825F6300F31569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3949CBC1B825F6300F31569 /* Build configuration list for PBXNativeTarget "TaticasFutebolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3949CBD1B825F6300F31569 /* Debug */,
+				C3949CBE1B825F6300F31569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3949C951B825F6300F31569 /* TaticasFutebol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3949C961B825F6300F31569 /* TaticasFutebol.xcdatamodel */,
+			);
+			currentVersion = C3949C961B825F6300F31569 /* TaticasFutebol.xcdatamodel */;
+			path = TaticasFutebol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3949C831B825F6300F31569 /* Project object */;
+}
